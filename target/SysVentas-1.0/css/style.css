@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+
+#franja {
+    background-color: #4183c4;
+    padding-bottom: 35px;
+}
+
+
+
+.form-row {
+    margin-bottom: 12px;
+}
+
+.form-group {
+    margin-bottom: 4px;
+}
+
+h4, label {
+    color: #4183c4;
+}
+

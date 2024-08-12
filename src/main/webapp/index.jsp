@@ -30,7 +30,7 @@
                         <li class="nav-item dropdown">
                             <a style="margin-left: 10px; border:none" class="btn btn-outline-dark dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Tablas</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Gestion de Productos</a></li>
+                                <li><a class="dropdown-item" href="producto?action=listar">Gestion de Productos</a></li>
                                 <li><a class="dropdown-item" href="cliente?action=listar">Gestion de Clientes</a></li>
                                 <li><a class="dropdown-item" href="vistas/gestionProveedores.jsp">Gestion de Proveedores</a></li>     
                                 <li><a class="dropdown-item" href="#">Gestion de Usuarios</a></li>
