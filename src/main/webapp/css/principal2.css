@@ -1,0 +1,9 @@
+.footer-bar {
+    width: 100%;
+    text-align: right;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    background-color: #f8f9fa;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

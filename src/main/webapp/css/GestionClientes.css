@@ -1,0 +1,48 @@
+h1{
+    color: #4183C4;
+    margin-bottom: 20px;
+}
+h2{
+    color: #4183C4;
+}
+.gestion{
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 5%;     
+}
+.registro{
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    margin-top: 5%; 
+    
+}
+.proveedor{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    width: 50%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 10px;
+}
+.proveedor:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.documento{
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 5%;     
+}
+.buscar{
+    background-color: #fffdf5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+    padding: 15px 0px 15px 25px;
+}
