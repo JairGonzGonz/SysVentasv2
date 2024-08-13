@@ -101,12 +101,12 @@ public class ClienteServlet extends HttpServlet {
     private void listarClientes(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Cliente> clientes = clienteDAO.listarClientes();
         request.setAttribute("clientes", clientes);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/GestiondeClientes.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/cliente/GestiondeClientes.jsp");
         dispatcher.forward(request, response);
     }
 
     private void mostrarFormularioRegistro(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/crearCliente.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/cliente/crearCliente.jsp");
         dispatcher.forward(request, response);
     }
 
@@ -148,7 +148,7 @@ public class ClienteServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Cliente cliente = clienteDAO.obtenerPorId(id);
         request.setAttribute("cliente", cliente);
-        request.getRequestDispatcher("vistas/editarCliente.jsp").forward(request, response);
+        request.getRequestDispatcher("vistas/cliente/editarCliente.jsp").forward(request, response);
     }
 
     private void actualizarCliente(HttpServletRequest request, HttpServletResponse response) throws IOException {

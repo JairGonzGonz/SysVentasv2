@@ -6,12 +6,15 @@ modelo\Proveedor.class
 util\Test.class
 modelo\Combo.class
 util\DatabaseConnection.class
+DAO\ProveedorDAO.class
 DAO\ProductoDAOExten.class
 DAO\ProductoDAO.class
+Controlador\ProveedorServlet.class
 Controlador\ProductoServlet.class
 Controlador\LoginServlet.class
 modelo\Cliente.class
 modelo\Producto.class
 DAO\ClienteDAO.class
 modelo\Usuario.class
+DAO\ProveedorDAOImpl.class
 DAO\ProductoDAOImpl.class

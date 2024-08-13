@@ -32,7 +32,7 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="producto?action=listar">Gestion de Productos</a></li>
                                 <li><a class="dropdown-item" href="cliente?action=listar">Gestion de Clientes</a></li>
-                                <li><a class="dropdown-item" href="vistas/gestionProveedores.jsp">Gestion de Proveedores</a></li>     
+                                <li><a class="dropdown-item" href="proveedor?action=list">Gestion de Proveedores</a></li>     
                                 <li><a class="dropdown-item" href="#">Gestion de Usuarios</a></li>
                             </ul>
                         </li>

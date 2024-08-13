@@ -108,12 +108,12 @@ public class ProductoServlet extends HttpServlet {
     private void listarProductos(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<Producto> productos = productoDAO.listarProductos();
         request.setAttribute("productos", productos);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/GestionProductos.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/producto/GestionProductos.jsp");
         dispatcher.forward(request, response);
     }
 
     private void mostrarFormularioRegistro(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/crearProducto.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/producto/crearProducto.jsp");
         dispatcher.forward(request, response);
     }
 
@@ -121,7 +121,7 @@ public class ProductoServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Producto producto = productoDAO.obtenerPorId(id);
         request.setAttribute("producto", producto);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/editarProducto.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/producto/editarProducto.jsp");
         dispatcher.forward(request, response);
     }
 
@@ -129,7 +129,7 @@ public class ProductoServlet extends HttpServlet {
         int id = Integer.parseInt(request.getParameter("id"));
         Producto producto = productoDAO.obtenerPorId(id);
         request.setAttribute("producto", producto);
-        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/verProducto.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("vistas/producto/verProducto.jsp");
         dispatcher.forward(request, response);
     }
 
